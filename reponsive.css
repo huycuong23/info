@@ -1,0 +1,21 @@
+@media screen and (min-width: 46.25em) and (max-width: 64em) {
+  .tab-item {
+    font-size: 3rem;
+  }
+}
+@media screen and (max-width: 45em) {
+    .tabs {
+        flex-direction: column;
+    }
+    .line {
+        display: none;
+    }
+    .tab-pane.active {
+        font-weight: 300;
+    }
+    img {
+        width: 150px;
+        height: 150px;
+        margin-top: 15px;
+    }
+}
